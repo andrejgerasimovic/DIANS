@@ -1,0 +1,1 @@
+C:\Users\Darko\DIANS>osmfilter macedonia-latest.osm_01.osm --keep="amenity=charging_station" | osmconvert64-0.8.8p.exe - --all-to-nodes --csv="@id @lon @lat name operator capacity fee payment:free socket:type2:output" --csv-headline --csv-separator="," -o="E-Park.csv"
